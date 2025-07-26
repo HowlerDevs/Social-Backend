@@ -29,11 +29,14 @@ THIRD_PARTY_APPS = [
     "django_filters",
     "corsheaders",
     "drf_spectacular",
+    "drf_spectacular_sidecar",
 ]
 LOCAL_APPS = [
     "apps.account.apps.AccountConfig",
     "apps.api.apps.ApiConfig",
     "apps.connect.apps.ConnectConfig",
+    "apps.content.apps.ContentConfig",
+    "apps.comment.apps.CommentConfig",
 ]
 INSTALLED_APPS = [
     "django.contrib.admin",
